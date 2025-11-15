@@ -2,7 +2,7 @@ package com.practice;
 
 import java.util.Scanner;
 
-public class P07_PalindromeSentence {
+public class P07_1_PalindromeSentence {
 
     public static void main(String[] args) {
 
