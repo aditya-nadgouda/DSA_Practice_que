@@ -19,6 +19,7 @@ public class P13_RotateArray {
 
     public static int[] rotatedArray(int[] arr,int d){
 
+        d = d % arr.length;
         for (int i = 0; i < d; i++) {
             int ele = arr[0];
             for (int j = 0; j < arr.length-1; j++) {
